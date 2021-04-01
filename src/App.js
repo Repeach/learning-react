@@ -20,6 +20,7 @@ const ImageCenter = styled.div`
 function App() {
   return (
     <div className="App">
+      <h1>JJ😍</h1>
       <Button/>
       <div>
         <Toppic/>
