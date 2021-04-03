@@ -15,15 +15,16 @@ const AlignButton = styled.div`
     margin-right: 1.5em;
 `;
 
-export const Button = () => {
+
+export default function Button() {
     return (
-        <div >
+        <div>
             <AlignButton>
             <ButtonShow> TH </ButtonShow>
             <ButtonShow> EN </ButtonShow>
             </AlignButton>
-     
         </div>
-
     )
 }
+
+

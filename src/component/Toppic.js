@@ -10,10 +10,11 @@ const ToppicHeader = styled.h1`
 
 `;
 
-export const Toppic = () => {
+export default function Toppic ({top}) {
     return (
         <div>
-            <ToppicHeader>Funny of my work test :(</ToppicHeader>
+            <ToppicHeader>{top}</ToppicHeader>
+            
         </div>
     )
 }

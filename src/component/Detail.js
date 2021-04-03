@@ -9,11 +9,14 @@ const DetailText = styled.h2`
 
 `;
 
+
+
 export default function Detail({name}) {
     return (
         
         <div>
             <DetailText>{name}</DetailText>
+            <hr/>
         </div>
     )
 }
